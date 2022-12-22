@@ -1,0 +1,87 @@
+.logo{
+    font-size: 25px; 
+    font-weight:bold; 
+    padding-left: 20px; 
+    color: #2c3fa3; 
+    text-decoration: none;
+}  
+.topbarContainer{
+    width:100%; 
+    height:50%; 
+    background-color: white; 
+    display: flex; 
+    position:sticky; 
+    align-items: center; 
+    z-index:999; 
+    flex: 1;
+   
+
+    /* position:sticky ; //will always be in the same place */
+
+} 
+.topbarLeft{
+    display:flex; 
+    align-items: center; 
+    margin-left: 20px; 
+    flex:1.2;
+}
+.topbarImg{
+    width:35px;
+    height:37px; 
+    border-radius:50%; 
+    object-fit: cover; 
+    cursor: pointer;
+
+}
+.topbarCenter{ 
+    flex:1.3; 
+
+
+} 
+.searchBar{
+    width:250px; 
+    height: 30px;; 
+    border-radius:30px; 
+    display:flex; 
+    align-items: center; 
+    font-size:25px;
+} 
+.searchIcon{
+    font-size:25px !important; 
+    margin-left:10px; 
+    padding-right:5px;
+
+
+}  
+.searchInput{
+    border: none; 
+    font-size: 20px; 
+    font-weight: 150;
+} 
+/* outline is not getting remoed */
+searchInput:focus { 
+    outline: none; 
+    background-color: orange;
+
+} 
+.topbarRight{
+    flex:2 ;
+    display:flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    color: #2c3fa3; 
+    padding-left:110px; 
+} 
+.topbarLink{
+    padding-right:85px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    color:red;
+} 
+/* doubt:how to implement position absolute and position relative */
+.topbarIconItem{
+    margin-right: 10px; 
+    position: relative; 
+    cursor: pointer;
+}
+

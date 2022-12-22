@@ -1,0 +1,59 @@
+.sidebar{
+    flex:3; 
+    height: calc(100vh-50px ); 
+    overflow-y: scroll;
+} 
+.sidebarWrapper{
+    padding:20px;
+} 
+/* remove the margin an the padding in the sidebar list */ 
+.siderbarList{
+    padding:0; 
+    margin:0; 
+    list-style: none;
+} 
+.sidebarPersonContainer{
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 15px;
+} 
+.sidebarPerson{ 
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50%; 
+    object-fit: cover;
+
+} 
+.sidebarPersonName{
+    font-size: 15px; 
+    font-weight: bold; 
+    padding-left:15px; 
+    text-decoration: none;
+}  
+.sidebarListItem{
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+.sidebarIcon{
+    margin-right:15px; 
+} 
+.sidebarButton{
+    width:175px; 
+    border:none; 
+    padding:10px; 
+    border-radius: 50px;
+    cursor: pointer; 
+    font-weight: 600;
+} 
+.sidebarHr{
+    margin:20px 0;
+} 
+.sidebarFriendList{ 
+    font-size: 16.5px; 
+    font-weight: bold;
+
+} 
+.sidebarFriendListPersons{
+    margin-top: 20px;
+}
